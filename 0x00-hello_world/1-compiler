@@ -1,10 +1,4 @@
 
 #!/bin/bash
-
-gcc -C $CFILE
-
-
-
-:q
-
-
+gcc -c $CFILE
+-pass-exit-codes
